@@ -1,0 +1,52 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestión de Notas Universitarias</title>
+    <!-- Agrega Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Agrega tus estilos personalizados si los tienes -->
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <div class="container vh-100">
+        <div class="row justify-content-center align-items-center h-100">
+            <div class="col-md-6 col-lg-4">
+                <div class="card shadow-sm">
+                    <div class="card-header bg-primary text-white text-center">
+                        <img src="img/logo-universidad.png" alt="ITS" class="img-fluid my-3" style="max-height: 80px;">
+                        <h4 class="mb-0">Sistema de Gestion Examenes</h4>
+                    </div>
+                    <div class="card-body p-4">
+                        <form id="loginForm">
+                            <div class="mb-3">
+                                <label for="dni" class="form-label">DNI</label>
+                                <input type="text" class="form-control" id="dni" placeholder="Ingrese su DNI" required
+                                       pattern="[0-9]{7,8}" title="DNI debe contener 7 u 8 dígitos">
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="password" placeholder="Ingrese su contraseña" required
+                                       minlength="6" title="La contraseña debe tener al menos 6 caracteres">
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 mt-3">
+                                <i class="bi bi-box-arrow-in-right"></i> Ingresar
+                            </button>
+                        </form>
+                        
+                        <div class="alert alert-danger mt-3 d-none" id="loginError"></div>
+                    </div>
+                    <div class="card-footer text-center bg-transparent">
+                        <small class="text-muted">Instituto Tecnico Superior Puerto Esperanza</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Agrega Bootstrap JS y sus dependencias al final del body -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Agrega Bootstrap Icons si quieres usar iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <!-- Tu archivo auth.js -->
+    <script src="js/auth.js"></script>
+</body>
