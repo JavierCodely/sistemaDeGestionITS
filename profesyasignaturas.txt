@@ -1,0 +1,59 @@
+Alderete:
+
+Teoría de los Sistemas
+
+Algoritmos y estructuras de datos
+
+Lógica y programación II
+
+Estadística
+
+Inteligencia Artificial
+
+Sosa:
+
+Práctica Profesionalizante I
+
+Base de Datos
+
+Olmedo:
+
+Redes
+
+Práctica Profesionalizante II
+
+Cuenca:
+
+Comunicación
+
+Derecho y Legislación Laboral
+
+Fedan:
+
+Física Aplicada
+
+Hulgren:
+
+Matemática
+
+Errasti:
+
+Inglés I
+
+Inglés II
+
+Inglés III
+
+Cuellar:
+
+Teoría de la Información
+
+Integridad y Migración de Datos
+
+Administración de Sistemas Operativos y Redes
+
+Arufe:
+
+Práctica Profesionalizante III
+
+Sistemas Distribuidos
